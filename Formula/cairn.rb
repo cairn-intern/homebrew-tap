@@ -1,28 +1,28 @@
 class Cairn < Formula
   desc "Terminal-based coding agent, built by Cairn"
   homepage "https://github.com/cairn/cairn"
-  version "0.3.6"
+  version "0.3.7"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/cairn/cairn/releases/download/v0.3.6/cairn-code-macos-aarch64"
-      sha256 "27ff722e5198fc2741c624dc58f8e6ce2347bc5145193c8e91dac2b06b67fe0b"
+      url "https://github.com/cairn/cairn/releases/download/v0.3.7/cairn-code-macos-aarch64"
+      sha256 "4d589b0f519d93e6e5f3121d8549ab9b3dbd490449b5e0ab84fe5b5779b9b0d9"
     end
     on_intel do
-      url "https://github.com/cairn/cairn/releases/download/v0.3.6/cairn-code-macos-x86_64"
-      sha256 "e033252cee7f62236d1d86d0ee540c433aa7bf2974dbbe22edc24ff64cf45a4d"
+      url "https://github.com/cairn/cairn/releases/download/v0.3.7/cairn-code-macos-x86_64"
+      sha256 "ffa42cb429eb917a392735c75010338d636fb8fba40eb2e239d17f6bafe609e7"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/cairn/cairn/releases/download/v0.3.6/cairn-code-linux-aarch64"
-      sha256 "9454bd0fc6c18039289b69c0d52967c1e27f4e5a116e4a87961522ee18c3bd5e"
+      url "https://github.com/cairn/cairn/releases/download/v0.3.7/cairn-code-linux-aarch64"
+      sha256 "be574b8e2c58f60ec21dc1938c9e16c9437b4a4c93644f02423165c9dae515a4"
     end
     on_intel do
-      url "https://github.com/cairn/cairn/releases/download/v0.3.6/cairn-code-linux-x86_64"
-      sha256 "ba14c1e223f1c68ae02c852ebc2104995b7ccb23076baf6f0ff82ccc83899410"
+      url "https://github.com/cairn/cairn/releases/download/v0.3.7/cairn-code-linux-x86_64"
+      sha256 "4cbc59070c2cf3f2f4d4cee8db5db7019e872552126f91652e9d48bee196da27"
     end
   end
 
